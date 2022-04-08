@@ -385,7 +385,7 @@ bat_length = 0.322
 
 if __name__ == '__main__':
 	self = Assembly()
-	print('shangcheng')
+	print('shangcheng100')
 	print('yuefan')
 	print(self.getTCPPose_reWrite())
 # self.moveL_rewrite([-0.5670, 0.2, 0.5, 2.2, 2.219, 0.00180])
