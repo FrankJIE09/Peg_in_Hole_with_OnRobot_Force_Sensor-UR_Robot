@@ -385,6 +385,7 @@ bat_length = 0.322
 
 if __name__ == '__main__':
 	self = Assembly()
+	print('bug')
 	print('shangcheng')
 	print('yuefan')
 	print(self.getTCPPose_reWrite())
