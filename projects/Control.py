@@ -9,7 +9,9 @@ def from_yaml_get_data(label):
 	file = open('../configs/UR10e.yaml', 'r', encoding='utf-8')
 	read = file.read()
 	cfg = yaml.load(read, Loader=yaml.FullLoader)
+	
 	return cfg[label]
+	pass
 
 
 class URControl:
