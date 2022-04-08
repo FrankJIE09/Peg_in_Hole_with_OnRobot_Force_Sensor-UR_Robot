@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared  -o FTReading.cpython-36m-x86_64-linux-gnu.so CMakeFiles/FTReading.dir/src/Force.cpp.o CMakeFiles/FTReading.dir/src/main.cpp.o CMakeFiles/FTReading.dir/src/pyFT.cpp.o -flto 
