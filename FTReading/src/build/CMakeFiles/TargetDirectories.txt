@@ -1,3 +1,0 @@
-/home/franka/Frank/code/Peg_in_Hole/FTReading/src/build/CMakeFiles/rebuild_cache.dir
-/home/franka/Frank/code/Peg_in_Hole/FTReading/src/build/CMakeFiles/my_cmake_exe.dir
-/home/franka/Frank/code/Peg_in_Hole/FTReading/src/build/CMakeFiles/edit_cache.dir

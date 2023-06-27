@@ -5,7 +5,5 @@ scipy~=1.5.4
 sympy~=1.8
 threadpoolctl
 XlsxWriter~=1.3.8
-
-
 xlrd~=1.2.0
 PyYAML~=5.4.1

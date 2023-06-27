@@ -1,1 +1,0 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/my_cmake_exe.dir/main.cpp.o CMakeFiles/my_cmake_exe.dir/Force.cpp.o  -o my_cmake_exe 
