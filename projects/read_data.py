@@ -1,3 +1,8 @@
+# 读取Excel数据和绘制力传感器数据图像的函数。
+# 其中，“read”函数的主要目的是从Excel文件中提取力传感器数据并绘制图像；
+# “array”函数的主要目的是将多个Excel文件中的数据合并到单个xlsx文件中；
+# “deal_data”函数的目的是处理数据并输出图像和数组。
+# Created by Jie Yu
 import time
 
 import xlrd

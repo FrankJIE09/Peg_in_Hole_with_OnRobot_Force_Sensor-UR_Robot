@@ -1,3 +1,6 @@
+# 主要实现的功能是读取某个IP地址对应的传感器的数据，并将其实时显示在一个包含6个子图的大图里面，每个子图展示对应轴向上的力或力矩变化。
+# 通过调用FTReading模块中的类，实现传感器的初始化和数据的读取。同时，该程序使用了matplotlib库来绘制实时的力矩变化曲线。
+# Created by Jie Yu
 import time
 import FTReading
 import matplotlib.pyplot as plt

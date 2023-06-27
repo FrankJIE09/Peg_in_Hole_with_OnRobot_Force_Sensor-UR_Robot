@@ -1,3 +1,6 @@
+# 主要实现了抓取和装配轴承的功能。使用了名为Assembly的类，以及一些Python标准库和第三方库。
+# 代码通过解析YAML文件来获取配置参数，通过多线程来实现同时记录FT数据和进行抓取装配。
+# Created by Jie Yu
 from projects.Assembly import Assembly
 import yaml
 import math
@@ -40,7 +43,7 @@ class Multiply:
 		self.robot = Assembly.get_robot(self.assembly)
 	
 	# 主程序
-	def loop_Grab(self, worksheet, worksheet_error=xlsxwriter.Workbook('Ft.xlsx').add_worksheet("record")):
+	def loop_grab(self, worksheet, worksheet_error=xlsxwriter.Workbook('Ft.xlsx').add_worksheet("record")):
 		Bearing_Point = from_yaml_get_point_xy('Bearing_Point')
 		Bearing_Point_for_record = Bearing_Point
 		Shaft_Point = from_yaml_get_point_xy('Shaft_Point')
@@ -155,7 +158,7 @@ if __name__ == '__main__':
 	worksheet_2 = workbook.add_worksheet("record")
 	experiment.zero_ft()
 	# get_chart = threading.Thread(target=experiment.assembly.get_ft_chart, args=(worksheet_,), daemon=True)
-	grab = threading.Thread(target=experiment.loop_Grab, args=(worksheet_, worksheet_2))
+	grab = threading.Thread(target=experiment.loop_grab, args=(worksheet_, worksheet_2))
 	try:
 		# get_chart.start()
 		grab.start()
