@@ -5,7 +5,7 @@
 
 **编程语言： Python3**
 
-**机械臂平台： UR10e**
+**机械臂平台： UR10e&FT-Sensor** 
 
 **概述：本系统使用UR_RTDE接口控制UR10e，实现了力控轴孔装配。可在50mm的轴孔尺寸下，实现0.1mm以内间隙的装配。**
 
@@ -39,9 +39,15 @@
         │  Control.py                               //初始化机械臂，与机械臂建立连接
         │  Multiply_assembly.py                     //主程序，记录数据
         └─ read_data.py                             //处理数据
+## **四.演示视频**
 
-## **四.配置UR示教器：**
-    如本目录下的图片：Image_guide1,Image_guide2,Image_guide3，
+## **五.配置UR示教器：**
     测量末端到机械臂末端的距离。将该距离填入图中z值并点上标签。
+
+<div style="display:flex;">
+    <img src="./configs/Image_guide1.jpeg" width="33%" style="margin-right:10px;">
+    <img src="./configs/Image_guide2.jpeg" width="33%" style="margin-right:10px;">
+<img src="./configs/Image_guide3.jpeg" width="33%">
+</div>
 
 # Peg_in_Hole_with_OnRobot_Force_Sensor-UR_Robot
