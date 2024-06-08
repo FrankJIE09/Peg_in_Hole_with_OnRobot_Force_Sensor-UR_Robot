@@ -44,7 +44,7 @@
         
 ## **四.演示视频**
 ![demo video](https://youtu.be/v5WuBuBptk0/)
-
+<iframe width="560" height="315" src="https://www.youtube.com/v5WuBuBptk0" frameborder="0" allowfullscreen></iframe>
 ## **五.配置UR示教器：**
     测量末端到机械臂末端的距离。将该距离填入图中z值并点上标签。
 
