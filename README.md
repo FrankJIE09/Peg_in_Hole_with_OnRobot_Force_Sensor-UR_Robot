@@ -41,8 +41,10 @@
         │  Control.py                               //初始化机械臂，与机械臂建立连接
         │  Multiply_assembly.py                     //主程序，记录数据
         └─ read_data.py                             //处理数据
+        
 ## **四.演示视频**
-![demo video]https://youtu.be/v5WuBuBptk0/0.jpg
+![demo video](https://youtu.be/v5WuBuBptk0/0.jpg)
+
 ## **五.配置UR示教器：**
     测量末端到机械臂末端的距离。将该距离填入图中z值并点上标签。
 
