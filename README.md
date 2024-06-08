@@ -1,4 +1,6 @@
 ## **一.简介：**
+**参考算法文章：[Autonomous Alignment of Peg and Hole by Force/Torque Measurement for Robotic Assembly](http://wjchen84.github.io/publications/C2016_CASE_PH.pdf)**
+
 **项目名称：轴孔力控装配**
 
 **操作系统：Ubuntu18.04**
